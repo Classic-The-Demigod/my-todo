@@ -10,7 +10,7 @@ export default function Home() {
     <section className="relative px-6 h-screen">
       <Image src={Circle} alt="" className="absolute top-0 left-0" />
 
-      <main className="pt-[17rem] flex flex-col items-center gap-[10rem]">
+      <main className="pt-[10rem] flex flex-col items-center gap-[4rem]">
         <div className=" flex flex-col items-center justify-center gap-4  text-center">
           <Image src={HeroImg} alt="" />
           <h1 className="font-bold">Gets things done with TODOs</h1>
@@ -22,7 +22,7 @@ export default function Home() {
         </div>
 
         <Link
-          className="w-full  bg-[#50C2C9] rounded-lg py-6 text-lg font-semibold text-white text-center"
+          className="w-full mb-6  bg-[#50C2C9] rounded-lg py-4 text-lg font-semibold text-white text-center"
           href="/auth/signup"
         >
           Get Started

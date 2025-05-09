@@ -72,7 +72,12 @@ const SignIn = () => {
             }
             className="w-full p-4 rounded-full bg-white"
           />
-          <Button type="submit" onClick={() => {}}>
+          <Button
+            type="submit"
+            onClick={() => {
+              router.push("/dashboard");
+            }}
+          >
             Sign In
           </Button>
         </form>
